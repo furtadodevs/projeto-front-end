@@ -1,2 +1,2 @@
-# teste-bootstrap
-Projeto para treinar Bootstrap 5
+# projeto-front-end
+Projeto criado utilizando Bootstrap 5  
