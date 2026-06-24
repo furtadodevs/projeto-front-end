@@ -11,9 +11,10 @@ formLogin.addEventListener('submit', function (evento){
     const emailValido = email.value.includes('@') && email.value.includes('.');
     const senhaValida = senha.value.length >= 6;
 
-    if (emailValido) == true && senhaValida == true){
-        console.log("entrou");
+    if (emailValido == true && senhaValida == true){
+        mensagemErro.classList.add('d-none');
+        window.location.href = 'curso.html';
     } else {
-        console.log("deu certo");
+        mensagemErro.classList.remove('d-none');
     }
-})
+});
